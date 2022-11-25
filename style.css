@@ -1,0 +1,237 @@
+﻿body {
+    background: #f4f4f4;
+}
+
+header {
+    background:#ff6868;
+    padding-bottom: 150px;
+    box-shadow: 0px 5px 10px #b62929;
+}
+
+header img{
+    position:absolute;
+    right: 0px;
+    height:150px;
+}
+
+header h1{
+    position: absolute;
+    top:50px;
+    left:50px;
+    font-size:50px;
+}
+
+main {
+    width: 90%;
+    height: 95%;
+    margin: 80px 0 100px 5%;
+    background: #adfdbe;
+    border: 10px solid #6cdf84;
+    border-radius:20px;
+    box-shadow: -5px 5px 10px #189632;
+}
+
+main h1{
+    font-size: 28px;
+    padding:100px 0 0 120px;
+    width: 50%;
+}
+
+main p{
+    padding: 20px 0 0 100px;
+    width:50%;
+    font-size:18px;   
+}
+
+main div img{
+    border-radius:12px;
+}
+
+#brasao {
+    position: absolute;
+    top: 300px;
+    right: 120px;
+    width: 18%;
+}
+
+#brasao img {
+    padding: 30px 35px 20px 35px;
+    width: 70%;
+    height: 80%;
+}
+
+#brasao:hover img {
+    padding-bottom: 0px;
+    transition: .5s all;
+}
+
+#brasao:not(hover) img {
+    padding-bottom: 20px;
+    transition: .5s all;
+}
+
+#brasao p{
+    padding:0px 0px 7px 10px;
+    display:inline-block;
+    font-size:15px;
+    width:100%
+}
+
+#uniforme{
+    position:absolute;
+    top:800px;
+    right:120px;
+    width:18%;
+}
+
+#uniforme img {
+    width: 93%;
+    padding: 10px 0px 5px 10px;
+}
+
+#uniforme p{
+    padding:0 0 5px 3%;
+    font-size:15px;
+    width:100%;
+}
+
+#uniforme:hover img{
+    padding: 5px 0px 0px 9px;
+    transition:.5s;
+}
+
+#uniforme:not(hover) img {
+    padding: 10px 0px 2% 10px;
+    transition: .5s;
+}
+
+strong{
+    font-weight:bold;
+}
+
+i{
+    font-style:italic
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+th {
+    font-weight: bold;
+}
+
+.tabela:hover{
+    background:#b5debd
+}
+
+.sub{
+    font-weight:bold;
+    border:0;
+}
+
+#base{
+    margin-top:0px;
+    margin-bottom:100px;
+}
+ 
+.longo{
+    border-right:0px;
+    border-left:0px
+}
+
+.campeao{
+    background:#ffd800a0;
+    font-weight:bold;
+}
+
+.vice {
+    background: #808080b8;
+    font-weight: bold;
+}
+
+table {
+    position:relative;
+    top:50px;
+    left:18%;
+    background: #d3ffdc;
+    width:380px;
+}
+
+#time{
+    width:26%;
+    position:absolute;
+    right:100px;
+    top:1200px;
+}
+
+#time img{
+    padding:6px;
+    width:96%;
+}
+
+#time:hover img{
+    padding-bottom:0px;
+    transition:.5s;
+}
+
+#time:not(hover) img {
+    padding-bottom: 1.5%;
+    transition: .5s;
+}
+
+#time p {
+    display: block;
+    padding: 0 0 5px 2%;
+    width: 100%;
+    font-size: 15px;
+}
+
+footer {
+    position:page;
+    bottom:0px;
+    background: #ff6868;
+    padding-bottom: 20px;
+    box-shadow: 0px -5px 10px #b62929
+}
+
+footer p{
+    width:50%;
+    font-weight:bold;
+    position:relative;
+    left:35%;
+    padding-top:10px;
+}
+
+a{
+    text-decoration: wavy;
+}
+
+.mudar {
+    border: 10px solid #6cdf84;
+    border-radius: 20px;
+    background: #d3ffdc;
+}
+
+.mudar:hover{
+    transform:scale(1.25);
+    transition: .5s;
+}
+
+.mudar:not(:hover) {
+    transform: scale(1);
+    transition: .5s;
+}
+
+.mudar:hover p{
+    height:0px;
+    padding:0px;
+    opacity:0;
+    transition:.2s all;
+}
+
+.mudar:not(:hover) p{
+    height:15px;
+    opacity:1;
+    transition:2s all;
+}
